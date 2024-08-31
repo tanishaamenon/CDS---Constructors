@@ -15,9 +15,9 @@ There are some key points about costructors which are: <br>
 There are mainly 3 types of constructors. They are: <br>
 _Default Constructor:_ <br>
 A constructor which takes no arguments. It is also called a zero-argument constructor as it has no parameters. <br>
-_Parameterized Constructor: _ <br>
+_Parameterized Constructor:_  <br>
 A constructor that takes parameters, allowing the object to be initialized with specific values. <br>
-_Copy Constructor: _ <br>
+_Copy Constructor:_  <br>
 A constructor that initializes an object using another object of the same class. It is used for deep copying and when passing objects by value. <br>
 <br>
 
@@ -241,21 +241,21 @@ int main()
 **Outputs:**  <br>
 <br>
 a.<br>
-![exp11a output](https://github.com/tanishaamenon/CDS---OOPs/blob/main/exp11a.JPG) <br>
+![exp12a output](https://github.com/tanishaamenon/CDS---Constructors/blob/main/exp12a.JPG) <br>
 b.<br>
-![exp11b output](https://github.com/tanishaamenon/CDS---OOPs/blob/main/exp11b.JPG) <br>
+![exp12b output](https://github.com/tanishaamenon/CDS---Constructors/blob/main/exp12b.JPG) <br>
 c.<br>
-![exp11c output](https://github.com/tanishaamenon/CDS---OOPs/blob/main/exp11c.JPG) <br>
+![exp12c output](https://github.com/tanishaamenon/CDS---Constructors/blob/main/exp12c.JPG) <br>
 d.<br>
-![exp11d output](https://github.com/tanishaamenon/CDS---OOPs/blob/main/exp11d.JPG) <br>
+![exp12d output](https://github.com/tanishaamenon/CDS---Constructors/blob/main/exp12d.JPG) <br>
 e.<br>
-![exp11e output](https://github.com/tanishaamenon/CDS---OOPs/blob/main/exp11e.JPG) <br>
+![exp12e output](https://github.com/tanishaamenon/CDS---Constructors/blob/main/exp12e.JPG) <br>
 
 
 <br>
 
 **Conclusion:** <br>
-&#8594; We learnt about OOP in C++. <br>
-&#8594; We learnt the use case of classes and objects in C++. <br>
+&#8594; We learnt about constructors and deconstructors in C++. <br>
+&#8594; We learnt the use case of each of them in C++. <br>
 *******
 <br>
