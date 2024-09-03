@@ -1,10 +1,11 @@
 # Experiment 12
 
 **Aim:** <br>
-To study and implement Constructors and Destructors <br>
+To study and implement constructors and destructors <br>
 <br>
 **Theory:** <br>
-
+Constructors: <br>
+<br>
 Constructors are unique member functions of a class that are automatically called when an object of the class is created. The object’s data members are initialized. Resources may also be allocated when required. <br>
 There are some key points about costructors which are: <br>
 &#8594; The name of the constructor is same as its class name. <br>
@@ -19,6 +20,16 @@ _Parameterized Constructor:_  <br>
 A constructor that takes parameters, allowing the object to be initialized with specific values. <br>
 _Copy Constructor:_  <br>
 A constructor that initializes an object using another object of the same class. It is used for deep copying and when passing objects by value. <br>
+<br>
+
+Destructors <br>
+A destructor is a special member function which destroys the class objects created by the constructor. It has the same name as their class name preceded by a tilde (~) symbol.
+There are some key points about destructors which are: <br>
+&#8594; They neither require any argument nor do they return any value <br>
+&#8594; They release memory space which are occupied by the objects created by the constructor. <br>
+&#8594; Destructor cannot be overloaded. <br>
+&#8594; Objects are destroyed in the reverse of an object creation. <br>
+&#8594; Only one destructor can be defined. <br>
 <br>
 
 **Code:** <br>
@@ -237,6 +248,35 @@ int main()
     
 ```
 <br>
+f.<br>
+
+```
+# include<iostream>
+using namespace std;
+int c = 0;
+//using a destructor
+class destruct
+{
+    public:
+    destruct()
+    {
+        c++;
+        cout<<"Number of objects created: "<<c<<endl;
+    }
+    ~destruct()
+    {
+        c--;
+        cout<<"Number of objects destroyed: "<<c<<endl;
+    }
+};
+
+int main()
+{
+    destruct aa,bb,cc,dd;
+}
+
+```
+<br>
 
 **Outputs:**  <br>
 <br>
@@ -250,6 +290,9 @@ d.<br>
 ![exp12d output](https://github.com/tanishaamenon/CDS---Constructors/blob/main/exp12d.JPG) <br>
 e.<br>
 ![exp12e output](https://github.com/tanishaamenon/CDS---Constructors/blob/main/exp12e.JPG) <br>
+f.<br>
+![exp12f output](https://github.com/tanishaamenon/CDS---Constructors/blob/main/exp12f.JPG) <br>
+
 
 
 <br>
