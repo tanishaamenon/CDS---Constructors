@@ -1,7 +1,7 @@
 # Experiment 12
 
 **Aim:** <br>
-To study and implement constructors and destructors <br>
+To study and implement constructors and destructors. <br>
 <br>
 **Theory:** <br>
 Constructors: <br>
@@ -23,9 +23,9 @@ A constructor that initializes an object using another object of the same class.
 <br>
 
 Destructors <br>
-A destructor is a special member function which destroys the class objects created by the constructor. It has the same name as their class name preceded by a tilde (~) symbol.
+A destructor is a special member function which destroys the class objects created by the constructor. It has the same name as their class name preceded by a _tilde_ (~) symbol.
 There are some key points about destructors which are: <br>
-&#8594; They neither require any argument nor do they return any value <br>
+&#8594; They neither require any argument nor do they return any value. <br>
 &#8594; They release memory space which are occupied by the objects created by the constructor. <br>
 &#8594; Destructor cannot be overloaded. <br>
 &#8594; Objects are destroyed in the reverse of an object creation. <br>
